@@ -1,0 +1,5 @@
+Model_Name,RMSE,MAE,SourceFile
+ARIMA,8766.94,6814.87,arima_metrics.csv
+Prophet (weekly),6501.69,5286.51,prophet_weekly_metrics.csv
+Prophet (daily),2904.04,2095.2,prophet_daily_metrics.csv
+Prophet (monthly),16279.84,12597.91,prophet_monthly_metrics.csv
