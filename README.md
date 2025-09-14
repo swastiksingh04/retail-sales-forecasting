@@ -112,7 +112,7 @@ retail-sales-forecasting/
 
 1. Clone this repo:  
    ```bash
-   git clone https://github.com/your-username/retail-sales-forecasting.git
+   git clone https://github.com/swastiksingh04/retail-sales-forecasting.git
    cd retail-sales-forecasting
    ```  
 
