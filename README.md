@@ -49,10 +49,11 @@ The goal: predict future sales at **daily, weekly, and monthly levels** and iden
 ---
 
 ## 🔎 Key Insights  
-- **Prophet outperforms ARIMA** in retail forecasting.  
 - **Daily Prophet** = best accuracy → captures weekday patterns + holiday peaks.  
 - **Weekly Prophet** = practical balance → stable for inventory/logistics planning.  
-- **Monthly Prophet** = poor accuracy → use only for long-term trend visualization.  
+- **Monthly Prophet** = poor accuracy → use only for long-term trend visualization.
+- Against the ARIMA baseline, **Prophet reduced forecast error by ~27% (weekly) to ~67% (daily)**.
+- The **best model (Prophet daily)** gave the most reliable forecasts, supporting accurate short-term retail demand planning.
 - Adding **holidays (Diwali, Christmas, Black Friday)** can improve performance further.  
 
 ---
